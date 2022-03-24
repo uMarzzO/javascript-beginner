@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript ex001</title>
+    <style>
+        body{
+            background-color: lightblue;
+            color: rgb(8, 8, 8);
+            font-size: normal normal 20px 'Times New Romam', sanserif;
+        }
+
+        h1{
+            color: darkred;
+            font: normal bolder 80px;
+        }/*Comentário*/
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!!</h1><!--Comentário-->
+    <p>Já me livrei da maldição!! Rs...</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número: ')) 
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        //window.alert('O resultado da soma entre ' + n1 +' e '+ n2 + ' é ' + s +'.')
+        window.alert(`O resultado da soma entre ${n1} e ${n2} é ${s}.`)// Atenção aos apóstrofos!! Template Strings
+        /*
+        
+        Concatenação
+        (number + number) para Adição
+        (string + string) para Concatenação
+
+        Conversão string p/ number:
+        - Numbr.parseInt()
+        - Number.parseFloat()
+        - Number()
+
+        Conversão number p/ string:
+        - String(n)
+        - n.toString(n)
+
+        Outras Conversões:
+        - s.toLowerCase()   para letra minúscula;
+        - s.toUpperCase()   para letra maiúscula;
+        - s.length()        Quantos caracteres tem a string.
+        
+        */
+    </script>
+</body>
+</html>

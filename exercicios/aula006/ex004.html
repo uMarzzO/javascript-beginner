@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex004</title>
+
+    <style>
+        body{
+            background-color: aquamarine;
+            color: black;
+            margin: auto;
+            margin-top: 150px;
+            font: normal normal 30px Arial;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <script>
+        var nome = window.prompt('Qual o seu nome?')
+        document.write(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras. <br>`)
+        document.write(`Seu nome em maiúsculas é <strong>${nome.toUpperCase()}</strong>.<br>Já seunome em minúsculas é <strong>${nome.toLowerCase()}</strong>.`)
+
+        //n.toFixed(2) para 2 casas decimais...
+        //n.toFixed().replace('.', ',') para trocar ponto por virgula em float numbers...
+        //n.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'}) para adicionar simbolo da moeda local, caso queira alterar apenas mude a sigla na última string. (BRL por USD, EUR...)
+        
+    </script>
+</body>
+</html>
